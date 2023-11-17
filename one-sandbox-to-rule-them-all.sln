@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34310.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "one-sandbox-to-rule-them-all", "one-sandbox-to-rule-them-all\one-sandbox-to-rule-them-all.csproj", "{7460DE59-440C-406B-80DF-13BCBED676B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "one-sandbox-to-rule-them-all.Client", "one-sandbox-to-rule-them-all.Client\one-sandbox-to-rule-them-all.Client.csproj", "{4F141D7C-6DFE-4FB4-A257-1933CF93834B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telerik.Blazor", "..\blazor\Telerik.Blazor\Telerik.Blazor.csproj", "{44AD7B30-7AC1-4F2F-9486-292937E7ED21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Playground.Shared", "..\blazor\playground\Playground.Shared\Playground.Shared.csproj", "{B1857B30-CF84-439F-A13C-8CEB9F3C533D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7460DE59-440C-406B-80DF-13BCBED676B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7460DE59-440C-406B-80DF-13BCBED676B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7460DE59-440C-406B-80DF-13BCBED676B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7460DE59-440C-406B-80DF-13BCBED676B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F141D7C-6DFE-4FB4-A257-1933CF93834B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F141D7C-6DFE-4FB4-A257-1933CF93834B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F141D7C-6DFE-4FB4-A257-1933CF93834B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F141D7C-6DFE-4FB4-A257-1933CF93834B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44AD7B30-7AC1-4F2F-9486-292937E7ED21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44AD7B30-7AC1-4F2F-9486-292937E7ED21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44AD7B30-7AC1-4F2F-9486-292937E7ED21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44AD7B30-7AC1-4F2F-9486-292937E7ED21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1857B30-CF84-439F-A13C-8CEB9F3C533D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1857B30-CF84-439F-A13C-8CEB9F3C533D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1857B30-CF84-439F-A13C-8CEB9F3C533D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1857B30-CF84-439F-A13C-8CEB9F3C533D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA8F14F7-2055-46DD-94D1-254B500905FB}
+	EndGlobalSection
+EndGlobal

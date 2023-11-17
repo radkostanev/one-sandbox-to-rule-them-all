@@ -1,0 +1,33 @@
+﻿@inject IHostEnvironment Env
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/" />
+    <link rel="stylesheet" href="app.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet preload" as="style" type="text/css" />
+    <link id="kendoCss" rel="stylesheet preload" as="style" type="text/css" href="css/themes/dist/all.css" />
+    <HeadOutlet />
+</head>
+
+<body>
+    <Routes />
+    <script src="_framework/blazor.web.js" autostart="false" defer></script>
+    <script src="_content/Telerik.UI.for.Blazor/js/telerik-blazor.js" defer></script>
+    @if (Env.EnvironmentName.Contains("JSDebug"))
+    {
+        <script type="module" src="https://localhost:3124/main-vite.js"></script>
+    }
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            Blazor.start();
+        });
+    </script>
+</body>
+
+</html>

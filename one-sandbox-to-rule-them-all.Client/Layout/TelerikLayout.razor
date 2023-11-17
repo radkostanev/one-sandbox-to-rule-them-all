@@ -1,0 +1,28 @@
+﻿@using System.Globalization
+@using Telerik.Blazor.Components
+
+@inherits LayoutComponentBase
+
+<TelerikRootComponent>
+    @ChildContent
+</TelerikRootComponent>
+
+@code {
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+
+    protected override Task OnInitializedAsync()
+    {
+        SetDefaultCulture();
+
+        return base.OnInitializedAsync();
+    }
+
+    private void SetDefaultCulture()
+    {
+        var culture = new CultureInfo("en-US");
+
+        CultureInfo.DefaultThreadCurrentCulture = culture;
+        CultureInfo.DefaultThreadCurrentUICulture = culture;
+    }
+}
