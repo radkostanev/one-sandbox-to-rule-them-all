@@ -3,7 +3,7 @@
     "name": "Default Orange",
     "product": "kendo",
     "base": "@progress/kendo-theme-default",
-    "version": "7.0.2-dev.5",
+    "version": "7.1.0-dev.11",
     "api": "legacy",
     "previewColors": [
         "#ffffff",

@@ -291,12 +291,20 @@
 
 
     // Timeline
-    .k-gantt-timeline {
+    .k-gantt-timeline-pane {
 
-        .k-timeline {
+        .k-gantt-timeline {
             height: 100%;
             border-width: 0;
             display: flex;
+
+            *,
+            *::before,
+            *::after,
+            &::before,
+            &::after {
+                box-sizing: border-box;
+            }
         }
         .k-grid-header {}
         .k-grid-content {
@@ -772,7 +780,7 @@
         }
 
         .k-gantt,
-        .k-gantt-timeline,
+        .k-gantt-timeline-pane,
         .k-gantt-dependencies {
             width: auto !important; // stylelint-disable-line declaration-no-important
             height: auto !important; // stylelint-disable-line declaration-no-important
@@ -817,7 +825,7 @@
             margin-inline: -26px;
         }
 
-        .k-gantt-timeline {
+        .k-gantt-timeline-pane {
             .k-header {
                 border-width: 0 $kendo-grid-cell-vertical-border-width 1px 0;
             }
@@ -877,7 +885,7 @@
             margin-right: $kendo-gantt-rtl-milestone-planned-moment-margin-x;
         }
 
-        .k-gantt-timeline .k-milestone-wrap .k-task-start {
+        .k-gantt-timeline-pane .k-milestone-wrap .k-task-start {
             right: $kendo-gantt-rtl-milestone-dot-start-margin-x;
         }
 

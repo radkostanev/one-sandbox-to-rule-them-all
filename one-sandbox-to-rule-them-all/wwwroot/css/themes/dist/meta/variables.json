@@ -27,14 +27,6 @@
         "type": "List",
         "value": "(\"%\", \"%25\"), (\"<\", \"%3c\"), (\">\", \"%3e\"), (\"#\", \"%23\"), (\"(\", \"%28\"), (\")\", \"%29\")"
     },
-    "kendo-color-white": {
-        "type": "Color",
-        "value": "#ffffff"
-    },
-    "kendo-color-black": {
-        "type": "Color",
-        "value": "#000000"
-    },
     "kendo-enable-rounded": {
         "type": "Bool",
         "value": "true"
@@ -187,6 +179,206 @@
         "type": "Bool",
         "value": "false"
     },
+    "kendo-font-size": {
+        "type": "Number",
+        "value": "14px"
+    },
+    "kendo-font-size-xs": {
+        "type": "Number",
+        "value": "10px"
+    },
+    "kendo-font-size-sm": {
+        "type": "Number",
+        "value": "12px"
+    },
+    "kendo-font-size-md": {
+        "type": "Number",
+        "value": "14px"
+    },
+    "kendo-font-size-lg": {
+        "type": "Number",
+        "value": "16px"
+    },
+    "kendo-font-size-xl": {
+        "type": "Number",
+        "value": "20px"
+    },
+    "kendo-font-sizes": {
+        "type": "Map",
+        "value": "(xs: 10px, sm: 12px, md: 14px, lg: 16px, xl: 20px)"
+    },
+    "kendo-font-family-sans-serif": {
+        "type": "List",
+        "value": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+    },
+    "kendo-font-family-monospace": {
+        "type": "List",
+        "value": "SFMono-Regular, Menlo, Monaco, Consolas, \"Roboto Mono\", \"Ubuntu Mono\", \"Lucida Console\", \"Courier New\", monospace"
+    },
+    "kendo-font-family": {
+        "type": "String",
+        "value": "inherit"
+    },
+    "kendo-line-height": {
+        "type": "Number",
+        "value": "1.4285714286"
+    },
+    "kendo-line-height-xs": {
+        "type": "Number",
+        "value": "1"
+    },
+    "kendo-line-height-sm": {
+        "type": "Number",
+        "value": "1.25"
+    },
+    "kendo-line-height-md": {
+        "type": "Number",
+        "value": "1.4285714286"
+    },
+    "kendo-line-height-lg": {
+        "type": "Number",
+        "value": "1.5"
+    },
+    "kendo-line-height-em": {
+        "type": "Calculation",
+        "value": "calc(1.4285714286 * 1em)"
+    },
+    "kendo-font-weight-light": {
+        "type": "Number",
+        "value": "300"
+    },
+    "kendo-font-weight-normal": {
+        "type": "Number",
+        "value": "400"
+    },
+    "kendo-font-weight-medium": {
+        "type": "Number",
+        "value": "500"
+    },
+    "kendo-font-weight-semibold": {
+        "type": "Number",
+        "value": "600"
+    },
+    "kendo-font-weight-bold": {
+        "type": "Number",
+        "value": "700"
+    },
+    "kendo-letter-spacing": {
+        "type": "Null",
+        "value": "null"
+    },
+    "kendo-focus-shadow": {
+        "type": "List",
+        "value": "inset 0 0 0 2px rgba(0, 0, 0, 0.13)"
+    },
+    "kendo-transition": {
+        "type": "List",
+        "value": "color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out"
+    },
+    "kendo-disabled-filter": {
+        "type": "String",
+        "value": "grayscale(0.1)"
+    },
+    "kendo-disabled-opacity": {
+        "type": "Number",
+        "value": "0.6"
+    },
+    "kendo-disabled-styling": {
+        "type": "Map",
+        "value": "(opacity: 0.6, filter: grayscale(0.1))"
+    },
+    "kendo-loading-opacity": {
+        "type": "Number",
+        "value": "0.3"
+    },
+    "kendo-color-white": {
+        "type": "Color",
+        "value": "#ffffff"
+    },
+    "kendo-color-black": {
+        "type": "Color",
+        "value": "#000000"
+    },
+    "kendo-color-rgba-transparent": {
+        "type": "Color",
+        "value": "rgba(0, 0, 0, 0)"
+    },
+    "kendo-gradient-transparent-to-black": {
+        "type": "List",
+        "value": "rgba(0, 0, 0, 0), black"
+    },
+    "kendo-gradient-transparent-to-white": {
+        "type": "List",
+        "value": "rgba(255, 255, 255, 0), white"
+    },
+    "kendo-gradient-black-to-transparent": {
+        "type": "List",
+        "value": "black, rgba(0, 0, 0, 0)"
+    },
+    "kendo-gradient-white-to-transparent": {
+        "type": "List",
+        "value": "white, rgba(255, 255, 255, 0)"
+    },
+    "kendo-gradient-rainbow": {
+        "type": "List",
+        "value": "#ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff, #ff0000"
+    },
+    "kendo-palette-gray": {
+        "type": "Map",
+        "value": "(white: #ffffff, 1: #fafafa, 2: #f5f5f5, 3: #ebebeb, 4: #e0e0e0, 5: #d6d6d6, 6: #c2c2c2, 7: #adadad, 8: #999999, 9: #808080, 10: #666666, 11: #525252, 12: #3d3d3d, 13: #292929, 14: #1f1f1f, 15: #141414, black: #000000)"
+    },
+    "kendo-palette-coral": {
+        "type": "Map",
+        "value": "(1: #fff6f5, 2: #ffeceb, 3: #ffdedb, 4: #ffc8c4, 5: #ffb1ac, 6: #ff9d97, 7: #ff8a82, 8: #ff766d, 9: #ff6358, 10: #ea5a51, 11: #d45349, 12: #bf4a42, 13: #a33f38, 14: #80322c, 15: #5c201c)"
+    },
+    "kendo-palette-sky-blue": {
+        "type": "Map",
+        "value": "(1: #ebf8fe, 2: #d8f1fd, 3: #c5eafc, 4: #a3dffb, 5: #81d4fA, 6: #61c9f9, 7: #42bff7, 8: #22b3f5, 9: #03a9f4, 10: #039ae0, 11: #028ccb, 12: #027fb7, 13: #026999, 14: #02557a, 15: #023f5c)"
+    },
+    "kendo-palette-green": {
+        "type": "Map",
+        "value": "(1: #edf8e9, 2: #dcf0d3, 3: #cbe9bf, 4: #b7e1a5, 5: #9bda80, 6: #81d15f, 7: #69c740, 8: #4ebe1f, 9: #37b400, 10: #32a500, 11: #2d9600, 12: #298700, 13: #227100, 14: #1c5a00, 15: #1c5a00)"
+    },
+    "kendo-palette-blue": {
+        "type": "Map",
+        "value": "(1: #e9f0fd, 2: #d2e2fb, 3: #bdd4f8, 4: #9ec0f6, 5: #80acf4, 6: #6098f2, 7: #4082ef, 8: #206eec, 9: #0058e9, 10: #0052d6, 11: #004ac2, 12: #0042af, 13: #003892, 14: #002c75, 15: #002259)"
+    },
+    "kendo-palette-yellow": {
+        "type": "Map",
+        "value": "(1: #fffae9, 2: #fff4d3, 3: #ffeebd, 4: #ffe79e, 5: #ffe080, 6: #ffd760, 7: #ffd040, 8: #ffc720, 9: #ffc000, 10: #eaaf00, 11: #d49f00, 12: #bf9000, 13: #a07800, 14: #806000, 15: #5e4700)"
+    },
+    "kendo-palette-red": {
+        "type": "Map",
+        "value": "(1: #feeeed, 2: #fcddda, 3: #fbc8c3, 4: #faaaa2, 5: #f98b80, 6: #f76f60, 7: #f65140, 8: #f43520, 9: #f31700, 10: #df1600, 11: #ca1400, 12: #b61100, 13: #980f00, 14: #7a0c00, 15: #7a0c00)"
+    },
+    "kendo-palette-lemon-yellow": {
+        "type": "Map",
+        "value": "(1: #fffcf1, 2: #fffae2, 3: #fff7d4, 4: #fff4c2, 5: #fff0b1, 6: #ffed9d, 7: #ffe989, 8: #ffe676, 9: #ffe162, 10: #ead05a, 11: #d4bc52, 12: #bfa94a, 13: #a3913f, 14: #807131, 15: #5c5223)"
+    },
+    "kendo-palette-spring-green": {
+        "type": "Map",
+        "value": "(1: #effaf3, 2: #e0f6e8, 3: #d1f1dd, 4: #c0edd1, 5: #a6e8c0, 6: #8fe2af, 7: #79dda0, 8: #62d78f, 9: #4cd180, 10: #46c074, 11: #3fae6a, 12: #399d60, 13: #2f834f, 14: #266940, 15: #1c4f30)"
+    },
+    "kendo-palette-royal-blue": {
+        "type": "Map",
+        "value": "(1: #f0f2ff, 2: #e1e4fe, 3: #d2d7fe, 4: #bbc3fd, 5: #a5affd, 6: #8e9bfc, 7: #7887fb, 8: #6173fb, 9: #4b5ffa, 10: #4558e5, 11: #3f50d1, 12: #3847bc, 13: #2f3c9d, 14: #26307d, 15: #1c245e)"
+    },
+    "kendo-palette-lavender-purple": {
+        "type": "Map",
+        "value": "(1: #f7f0ff, 2: #f0e0ff, 3: #e8d1ff, 4: #dfbfff, 5: #d6acff, 6: #cc97ff, 7: #c182ff, 8: #b76dff, 9: #ac58ff, 10: #9e51ea, 11: #8f49d4, 12: #8142bf, 13: #6b37a0, 14: #562c80, 15: #3f205e)"
+    },
+    "kendo-palette-flamingo-pink": {
+        "type": "Map",
+        "value": "(1: #fff0f5, 2: #ffe1eb, 3: #ffd1e1, 4: #ffbfd6, 5: #ffacc9, 6: #ff97bb, 7: #ff82ae, 8: #ff6da0, 9: #ff5892, 10: #ea5186, 11: #d4497a, 12: #bf426e, 13: #a0375c, 14: #802c49, 15: #5e2036)"
+    },
+    "kendo-enable-color-system": {
+        "type": "Bool",
+        "value": "false"
+    },
+    "kendo-colors": {
+        "type": "Map",
+        "value": "(app-surface: #ffffff, on-app-surface: #3d3d3d, subtle: #666666, surface: #fafafa, surface-alt: #ffffff, border: rgba(0, 0, 0, 0.08), border-alt: rgba(0, 0, 0, 0.16), base-subtle: #ebebeb, base-subtle-hover: #e0e0e0, base-subtle-active: #d6d6d6, base: #f5f5f5, base-hover: #ebebeb, base-active: #d6d6d6, base-emphasis: #c2c2c2, base-on-subtle: #3d3d3d, on-base: #3d3d3d, base-on-surface: #3d3d3d, primary-subtle: #ffeceb, primary-subtle-hover: #ffdedb, primary-subtle-active: #ffc8c4, primary: #ff6358, primary-hover: #ea5a51, primary-active: #d45349, primary-emphasis: #ff9d97, primary-on-subtle: #5c201c, on-primary: #ffffff, primary-on-surface: #ff6358, secondary-subtle: #fafafa, secondary-subtle-hover: #f5f5f5, secondary-subtle-active: #ebebeb, secondary: #666666, secondary-hover: #525252, secondary-active: #3d3d3d, secondary-emphasis: #e0e0e0, secondary-on-subtle: #141414, on-secondary: #ffffff, secondary-on-surface: #292929, tertiary-subtle: #d8f1fd, tertiary-subtle-hover: #c5eafc, tertiary-subtle-active: #a3dffb, tertiary: #03a9f4, tertiary-hover: #039ae0, tertiary-active: #028ccb, tertiary-emphasis: #61c9f9, tertiary-on-subtle: #023f5c, on-tertiary: #ffffff, tertiary-on-surface: #028ccb, info-subtle: #d2e2fb, info-subtle-hover: #bdd4f8, info-subtle-active: #80acf4, info: #0058e9, info-hover: #0052d6, info-active: #004ac2, info-emphasis: #6098f2, info-on-subtle: #002259, on-info: #ffffff, info-on-surface: #004ac2, success-subtle: #dcf0d3, success-subtle-hover: #cbe9bf, success-subtle-active: #b7e1a5, success: #37b400, success-hover: #32a500, success-active: #2d9600, success-emphasis: #81d15f, success-on-subtle: #1c5a00, on-success: #ffffff, success-on-surface: #2d9600, warning-subtle: #fff4d3, warning-subtle-hover: #ffeebd, warning-subtle-active: #ffe79e, warning: #ffc000, warning-hover: #eaaf00, warning-active: #d49f00, warning-emphasis: #ffd760, warning-on-subtle: #5e4700, on-warning: #3d3d3d, warning-on-surface: #ffc000, error-subtle: #fcddda, error-subtle-hover: #fbc8c3, error-subtle-active: #f98b80, error: #f31700, error-hover: #df1600, error-active: #ca1400, error-emphasis: #f76f60, error-on-subtle: #7a0c00, on-error: #ffffff, error-on-surface: #ca1400, light-subtle: #fafafa, light-subtle-hover: #f5f5f5, light-subtle-active: #ebebeb, light: #ebebeb, light-hover: #e0e0e0, light-active: #d6d6d6, light-emphasis: #d6d6d6, light-on-subtle: #141414, on-light: #000000, light-on-surface: #e0e0e0, dark-subtle: #c2c2c2, dark-subtle-hover: #adadad, dark-subtle-active: #999999, dark: #3d3d3d, dark-hover: #292929, dark-active: #1f1f1f, dark-emphasis: #666666, dark-on-subtle: #1f1f1f, on-dark: #ffffff, dark-on-surface: #141414, inverse-subtle: #c2c2c2, inverse-subtle-hover: #adadad, inverse-subtle-active: #999999, inverse: #3d3d3d, inverse-hover: #292929, inverse-active: #1f1f1f, inverse-emphasis: #666666, inverse-on-subtle: #1f1f1f, on-inverse: #ffffff, inverse-on-surface: #141414, series-a: #ff6358, series-a-bold: #bf4a42, series-a-bolder: #80322c, series-a-subtle: #ffb1ac, series-a-subtler: #ff8a82, series-b: #ffe162, series-b-bold: #bfa94a, series-b-bolder: #807131, series-b-subtle: #fff0b1, series-b-subtler: #ffe989, series-c: #4cd180, series-c-bold: #399d60, series-c-bolder: #266940, series-c-subtle: #a6e8c0, series-c-subtler: #79dda0, series-d: #4b5ffa, series-d-bold: #3847bc, series-d-bolder: #26307d, series-d-subtle: #a5affd, series-d-subtler: #7887fb, series-e: #ac58ff, series-e-bold: #8142bf, series-e-bolder: #562c80, series-e-subtle: #d6acff, series-e-subtler: #c182ff, series-f: #ff5892, series-f-bold: #bf426e, series-f-bolder: #802c49, series-f-subtle: #ffacc9, series-f-subtler: #ff82ae)"
+    },
     "kendo-color-primary": {
         "type": "Color",
         "value": "#ff6358"
@@ -299,94 +491,6 @@
         "type": "Map",
         "value": "(\"primary\": #ff6358, \"secondary\": #666666, \"tertiary\": #03a9f4, \"info\": #0058e9, \"success\": #37b400, \"warning\": #ffc000, \"error\": #f31700, \"dark\": #424242, \"light\": #ebebeb, \"inverse\": #424242)"
     },
-    "kendo-font-size": {
-        "type": "Number",
-        "value": "14px"
-    },
-    "kendo-font-size-xs": {
-        "type": "Number",
-        "value": "10px"
-    },
-    "kendo-font-size-sm": {
-        "type": "Number",
-        "value": "12px"
-    },
-    "kendo-font-size-md": {
-        "type": "Number",
-        "value": "14px"
-    },
-    "kendo-font-size-lg": {
-        "type": "Number",
-        "value": "16px"
-    },
-    "kendo-font-size-xl": {
-        "type": "Number",
-        "value": "20px"
-    },
-    "kendo-font-sizes": {
-        "type": "Map",
-        "value": "(xs: 10px, sm: 12px, md: 14px, lg: 16px, xl: 20px)"
-    },
-    "kendo-font-family-sans-serif": {
-        "type": "List",
-        "value": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
-    },
-    "kendo-font-family-monospace": {
-        "type": "List",
-        "value": "SFMono-Regular, Menlo, Monaco, Consolas, \"Roboto Mono\", \"Ubuntu Mono\", \"Lucida Console\", \"Courier New\", monospace"
-    },
-    "kendo-font-family": {
-        "type": "String",
-        "value": "inherit"
-    },
-    "kendo-line-height": {
-        "type": "Number",
-        "value": "1.4285714286"
-    },
-    "kendo-line-height-xs": {
-        "type": "Number",
-        "value": "1"
-    },
-    "kendo-line-height-sm": {
-        "type": "Number",
-        "value": "1.25"
-    },
-    "kendo-line-height-md": {
-        "type": "Number",
-        "value": "1.4285714286"
-    },
-    "kendo-line-height-lg": {
-        "type": "Number",
-        "value": "1.5"
-    },
-    "kendo-line-height-em": {
-        "type": "Calculation",
-        "value": "calc(1.4285714286 * 1em)"
-    },
-    "kendo-font-weight-light": {
-        "type": "Number",
-        "value": "300"
-    },
-    "kendo-font-weight-normal": {
-        "type": "Number",
-        "value": "400"
-    },
-    "kendo-font-weight-medium": {
-        "type": "Number",
-        "value": "500"
-    },
-    "kendo-font-weight-semibold": {
-        "type": "Number",
-        "value": "600"
-    },
-    "kendo-font-weight-bold": {
-        "type": "Number",
-        "value": "700"
-    },
-    "kendo-letter-spacing": {
-        "type": "Null",
-        "value": "null"
-    },
     "kendo-body-bg": {
         "type": "Color",
         "value": "#ffffff"
@@ -495,29 +599,9 @@
         "type": "List",
         "value": "rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.02)"
     },
-    "kendo-focus-shadow": {
-        "type": "List",
-        "value": "inset 0 0 0 2px rgba(0, 0, 0, 0.13)"
-    },
-    "kendo-transition": {
-        "type": "List",
-        "value": "color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out"
-    },
     "kendo-disabled-text": {
         "type": "Color",
         "value": "#8f8f8f"
-    },
-    "kendo-disabled-filter": {
-        "type": "String",
-        "value": "grayscale(0.1)"
-    },
-    "kendo-disabled-opacity": {
-        "type": "Number",
-        "value": "0.6"
-    },
-    "kendo-disabled-styling": {
-        "type": "Map",
-        "value": "(opacity: 0.6, filter: grayscale(0.1))"
     },
     "kendo-component-header-bg": {
         "type": "Color",
@@ -536,8 +620,8 @@
         "value": "null"
     },
     "kendo-invalid-bg": {
-        "type": "String",
-        "value": "initial"
+        "type": "Null",
+        "value": "null"
     },
     "kendo-invalid-text": {
         "type": "Color",
@@ -551,49 +635,37 @@
         "type": "Null",
         "value": "null"
     },
-    "kendo-loading-opacity": {
-        "type": "Number",
-        "value": "0.3"
+    "kendo-valid-bg": {
+        "type": "Null",
+        "value": "null"
+    },
+    "kendo-valid-text": {
+        "type": "Color",
+        "value": "#37b400"
+    },
+    "kendo-valid-border": {
+        "type": "Color",
+        "value": "#37b400"
+    },
+    "kendo-valid-shadow": {
+        "type": "Null",
+        "value": "null"
     },
     "kendo-palettes": {
         "type": "Map",
         "value": "(neutral: (0: #ffffff, 50: #f8f8f8, 100: #ededed, 200: #d6d6d6, 300: #b7b7b7, 400: #949494, 500: #767676, 600: #5f5f5f, 700: #494949, 800: #373737, 900: #282828, 1000: #000000), marsala: (0: #ffffff, 50: #faf0f2, 100: #f3dde0, 200: #e197a3, 300: #c54e69, 400: #8b3548, 500: #622331, 600: #551d2a, 700: #441620, 800: #340f17, 900: #23080e, 1000: #000000), bootstrapGray: (0: #ffffff, 100: #f8f9fa, 200: #e9ecef, 300: #dee2e6, 400: #ced4da, 500: #adb5bd, 600: #6c757d, 700: #495057, 800: #343a40, 900: #212529, 1000: #000000), bootstrapBlue: (0: #ffffff, 100: #cfe2ff, 200: #9ec5fe, 300: #6ea8fe, 400: #3d8bfd, 500: #0d6efd, 600: #0a58ca, 700: #084298, 800: #052c65, 900: #031633, 1000: #000000), bootstrapIndigo: (0: #ffffff, 100: #e0cffc, 200: #c29ffa, 300: #a370f7, 400: #8540f5, 500: #6610f2, 600: #520dc2, 700: #3d0a91, 800: #290661, 900: #140330, 1000: #000000), bootstrapPurple: (0: #ffffff, 100: #e2d9f3, 200: #c5b3e6, 300: #a98eda, 400: #8c68cd, 500: #6f42c1, 600: #59359a, 700: #432874, 800: #2c1a4d, 900: #160d27, 1000: #000000), bootstrapPink: (0: #ffffff, 100: #f7d6e6, 200: #efadce, 300: #e685b5, 400: #de5c9d, 500: #d63384, 600: #ab296a, 700: #801f4f, 800: #561435, 900: #2b0a1a, 1000: #000000), bootstrapRed: (0: #ffffff, 100: #f8d7da, 200: #f1aeb5, 300: #ea868f, 400: #e35d6a, 500: #dc3545, 600: #b02a37, 700: #842029, 800: #58151c, 900: #2c0b0e, 1000: #000000), bootstrapOrange: (0: #ffffff, 100: #ffe5d0, 200: #fecba1, 300: #feb272, 400: #fd9843, 500: #fd7e14, 600: #ca6510, 700: #984c0c, 800: #653208, 900: #331904, 1000: #000000), bootstrapYellow: (0: #ffffff, 100: #fff3cd, 200: #ffe69c, 300: #ffda6a, 400: #ffcd39, 500: #ffc107, 600: #cc9a06, 700: #997404, 800: #664d03, 900: #332701, 1000: #000000), bootstrapGreen: (0: #ffffff, 100: #d1e7dd, 200: #a3cfbb, 300: #75b798, 400: #479f76, 500: #198754, 600: #146c43, 700: #0f5132, 800: #0a3622, 900: #051b11, 1000: #000000), bootstrapTeal: (0: #ffffff, 100: #d2f4ea, 200: #a6e9d5, 300: #79dfc1, 400: #4dd4ac, 500: #20c997, 600: #1aa179, 700: #13795b, 800: #0d503c, 900: #06281e, 1000: #000000), bootstrapCyan: (0: #ffffff, 100: #cff4fc, 200: #9eeaf9, 300: #6edff6, 400: #3dd5f3, 500: #0dcaf0, 600: #0aa2c0, 700: #087990, 800: #055160, 900: #032830, 1000: #000000), fluentNeutral: (0: #ffffff, 50: #faf9f8, 100: #edebe9, 150: #e1dfdd, 200: #d2d0ce, 250: #c8c6c4, 300: #bdbbb8, 350: #b3b0ad, 400: #a19f9d, 450: #8a8886, 500: #797775, 550: #605e5c, 600: #484644, 650: #3b3a39, 700: #323130, 750: #292827, 800: #201f1e, 850: #1b1a19, 900: #161514, 950: #11100f, 1000: #000000), materialGray: (0: #ffffff, 50: #fafafa, 100: #f5f5f5, 200: #eeeeee, 300: #e0e0e0, 400: #bdbdbd, 500: #9e9e9e, 600: #757575, 700: #616161, 800: #424242, 900: #212121, 1000: #000000), materialBlueGray: (0: #ffffff, 50: #eceff1, 100: #cfd8dc, 200: #b0bec5, 300: #90a4ae, 400: #78909c, 500: #607d8b, 600: #546e7a, 700: #455a64, 800: #37474f, 900: #263238, 1000: #000000), materialRed: (0: #ffffff, 50: #ffebee, 100: #ffcdd2, 200: #ef9a9a, 300: #e57373, 400: #ef5350, 500: #f44336, 600: #e53935, 700: #d32f2f, 800: #c62828, 900: #b71c1c, 1000: #000000), materialPink: (0: #ffffff, 50: #fce4ec, 100: #f8bbd0, 200: #f48fb1, 300: #f06292, 400: #ec407a, 500: #e51a5f, 600: #d81b60, 700: #c2185b, 800: #ad1457, 900: #880e4f, 1000: #000000), materialPurple: (0: #ffffff, 50: #f3e5f5, 100: #e1bee7, 200: #ce93d8, 300: #ba68c8, 400: #ab47bc, 500: #9c27b0, 600: #8e24aa, 700: #7b1fa2, 800: #6a1b9a, 900: #4a148c, 1000: #000000), materialDeepPurple: (0: #ffffff, 50: #ede7f6, 100: #d1c4e9, 200: #b39ddb, 300: #9575cd, 400: #7e57c2, 500: #673ab7, 600: #5e35b1, 700: #512da8, 800: #4527a0, 900: #311b92, 1000: #000000), materialIndigo: (0: #ffffff, 50: #e8eaf6, 100: #c5cae9, 200: #9fa8da, 300: #7986cb, 400: #5c6bc0, 500: #3f51b5, 600: #3949ab, 700: #303f9f, 800: #283593, 900: #1a237e, 1000: #000000), materialBlue: (0: #ffffff, 50: #e3f2fd, 100: #bbdefb, 200: #90caf9, 300: #64b5f6, 400: #42a5f5, 500: #2196f3, 600: #1e88e5, 700: #1976d2, 800: #1565c0, 900: #0d47a1, 1000: #000000), materialLightBlue: (0: #ffffff, 50: #e1f5fe, 100: #b3e5fc, 200: #81d4fa, 300: #4fc3f7, 400: #29b6f6, 500: #03a9f4, 600: #039be5, 700: #0288d1, 800: #0277bd, 900: #01579b, 1000: #000000), materialCyan: (0: #ffffff, 50: #e0f7fa, 100: #b2ebf2, 200: #80deea, 300: #4dd0e1, 400: #26c6da, 500: #00bcd4, 600: #00acc1, 700: #0097a7, 800: #00838f, 900: #006064, 1000: #000000), materialTeal: (0: #ffffff, 50: #e0f2f1, 100: #b2dfdb, 200: #80cbc4, 300: #4db6ac, 400: #26a69a, 500: #009688, 600: #00897b, 700: #00796b, 800: #00695c, 900: #004d40, 1000: #000000), materialGreen: (0: #ffffff, 50: #e8f5e9, 100: #c8e6c9, 200: #a5d6a7, 300: #81c784, 400: #66bb6a, 500: #4caf50, 600: #43a047, 700: #388e3c, 800: #2e7d32, 900: #1b5e20, 1000: #000000), materialLightGreen: (0: #ffffff, 50: #f1f8e9, 100: #dcedc8, 200: #c5e1a5, 300: #aed581, 400: #9ccc65, 500: #8bc34a, 600: #7cb342, 700: #689f38, 800: #558b2f, 900: #33691e, 1000: #000000), materialLime: (0: #ffffff, 50: #f9fbe7, 100: #f0f4c3, 200: #e6ee9c, 300: #dce775, 400: #d4e157, 500: #cddc39, 600: #c0ca33, 700: #afb42b, 800: #9e9d24, 900: #827717, 1000: #000000), materialYellow: (0: #ffffff, 50: #fffde7, 100: #fff9c4, 200: #fff59d, 300: #fff176, 400: #ffee58, 500: #ffeb3b, 600: #fdd835, 700: #fbc02d, 800: #f9a825, 900: #f57f17, 1000: #000000), materialAmber: (0: #ffffff, 50: #fff8e1, 100: #ffecb3, 200: #ffe082, 300: #ffd54f, 400: #ffca28, 500: #ffc107, 600: #ffb300, 700: #ffa000, 800: #ff8f00, 900: #ff6f00, 1000: #000000), materialOrange: (0: #ffffff, 50: #fff3e0, 100: #ffe0b2, 200: #ffcc80, 300: #ffb74d, 400: #ffa726, 500: #ff9800, 600: #fb8c00, 700: #f57c00, 800: #ef6c00, 900: #e65100, 1000: #000000), materialDeepOrange: (0: #ffffff, 50: #fbe9e7, 100: #ffccbc, 200: #ffab91, 300: #ff8a65, 400: #ff7043, 500: #ff5722, 600: #f4511e, 700: #e64a19, 800: #d84315, 900: #bf360c, 1000: #000000), materialBrown: (0: #ffffff, 50: #efebe9, 100: #d7ccc8, 200: #bcaaa4, 300: #a1887f, 400: #8d6e63, 500: #795548, 600: #6d4c41, 700: #5d4037, 800: #4e342e, 900: #3e2723, 1000: #000000), primerGray: (0: #ffffff, 50: #f6f8fa, 100: #eaeef2, 200: #d0d7de, 300: #afb8c1, 400: #8c959f, 500: #6e7781, 600: #57606a, 700: #424a53, 800: #32383f, 900: #24292f, 1000: #000000), primerBlue: (0: #ffffff, 50: #ddf4ff, 100: #b6e3ff, 200: #80ccff, 300: #54aeff, 400: #218bff, 500: #0969da, 600: #0550ae, 700: #033d8b, 800: #0a3069, 900: #002155, 1000: #000000), primerGreen: (0: #ffffff, 50: #dafbe1, 100: #aceebb, 200: #6fdd8b, 300: #4ac26b, 400: #2da44e, 500: #1a7f37, 600: #116329, 700: #044f1e, 800: #003d16, 900: #002d11, 1000: #000000), primerYellow: (0: #ffffff, 50: #fff8c5, 100: #fae17d, 200: #eac54f, 300: #d4a72c, 400: #bf8700, 500: #9a6700, 600: #7d4e00, 700: #633c01, 800: #4d2d00, 900: #3b2300, 1000: #000000), primerOrange: (0: #ffffff, 50: #fff1e5, 100: #ffd8b5, 200: #ffb77c, 300: #fb8f44, 400: #e16f24, 500: #bc4c00, 600: #953800, 700: #762c00, 800: #5c2200, 900: #471700, 1000: #000000), primerRed: (0: #ffffff, 50: #ffebe9, 100: #ffcecb, 200: #ffaba8, 300: #ff8182, 400: #fa4549, 500: #cf222e, 600: #a40e26, 700: #82071e, 800: #660018, 900: #4c0014, 1000: #000000), primerPurple: (0: #ffffff, 50: #fbefff, 100: #ecd8ff, 200: #d8b9ff, 300: #c297ff, 400: #a475f9, 500: #8250df, 600: #6639ba, 700: #512a97, 800: #3e1f79, 900: #2e1461, 1000: #000000), primerPink: (0: #ffffff, 50: #ffeff7, 100: #ffd3eb, 200: #ffadda, 300: #ff80c8, 400: #e85aad, 500: #bf3989, 600: #99286e, 700: #772057, 800: #611347, 900: #4d0336, 1000: #000000), primerCoral: (0: #ffffff, 50: #fff0eb, 100: #ffd6cc, 200: #ffb4a1, 300: #fd8c73, 400: #ec6547, 500: #c4432b, 600: #9e2f1c, 700: #801f0f, 800: #691105, 900: #510901, 1000: #000000), tailwindNeutral: (0: #ffffff, 50: #fafafa, 100: #f5f5f5, 200: #e5e5e5, 300: #d4d4d4, 400: #a3a3a3, 500: #737373, 600: #525252, 700: #404040, 800: #262626, 900: #171717, 1000: #000000), tailwindSlate: (0: #ffffff, 50: #f8fafc, 100: #f1f5f9, 200: #e2e8f0, 300: #cbd5e1, 400: #94a3b8, 500: #64748b, 600: #475569, 700: #334155, 800: #1e293b, 900: #0f172a, 1000: #000000), tailwindGray: (0: #ffffff, 50: #f9fafb, 100: #f3f4f6, 200: #e5e7eb, 300: #d1d5db, 400: #9ca3af, 500: #6b7280, 600: #4b5563, 700: #374151, 800: #1f2937, 900: #111827, 1000: #000000), tailwindZinc: (0: #ffffff, 50: #fafafa, 100: #f4f4f5, 200: #e4e4e7, 300: #d4d4d8, 400: #a1a1aa, 500: #71717a, 600: #52525b, 700: #3f3f46, 800: #27272a, 900: #18181b, 1000: #000000), tailwindStone: (0: #ffffff, 50: #fafaf9, 100: #f5f5f4, 200: #e7e5e4, 300: #d6d3d1, 400: #a8a29e, 500: #78716c, 600: #57534e, 700: #44403c, 800: #292524, 900: #1c1917, 1000: #000000), tailwindRed: (0: #ffffff, 50: #fef2f2, 100: #fee2e2, 200: #fecaca, 300: #fca5a5, 400: #f87171, 500: #ef4444, 600: #dc2626, 700: #b91c1c, 800: #991b1b, 900: #7f1d1d, 1000: #000000), tailwindOrange: (0: #ffffff, 50: #fff7ed, 100: #ffedd5, 200: #fed7aa, 300: #fdba74, 400: #fb923c, 500: #f97316, 600: #ea580c, 700: #c2410c, 800: #9a3412, 900: #7c2d12, 1000: #000000), tailwindAmber: (0: #ffffff, 50: #fffbeb, 100: #fef3c7, 200: #fde68a, 300: #fcd34d, 400: #fbbf24, 500: #f59e0b, 600: #d97706, 700: #b45309, 800: #92400e, 900: #78350f, 1000: #000000), tailwindYellow: (0: #ffffff, 50: #fefce8, 100: #fef9c3, 200: #fef08a, 300: #fde047, 400: #facc15, 500: #eab308, 600: #ca8a04, 700: #a16207, 800: #854d0e, 900: #713f12, 1000: #000000), tailwindLime: (0: #ffffff, 50: #f7fee7, 100: #ecfccb, 200: #d9f99d, 300: #bef264, 400: #a3e635, 500: #84cc16, 600: #65a30d, 700: #4d7c0f, 800: #3f6212, 900: #365314, 1000: #000000), tailwindGreen: (0: #ffffff, 50: #f0fdf4, 100: #dcfce7, 200: #bbf7d0, 300: #86efac, 400: #4ade80, 500: #22c55e, 600: #16a34a, 700: #15803d, 800: #166534, 900: #14532d, 1000: #000000), tailwindEmerald: (0: #ffffff, 50: #ecfdf5, 100: #d1fae5, 200: #a7f3d0, 300: #6ee7b7, 400: #34d399, 500: #10b981, 600: #059669, 700: #047857, 800: #065f46, 900: #064e3b, 1000: #000000), tailwindTeal: (0: #ffffff, 50: #f0fdfa, 100: #ccfbf1, 200: #99f6e4, 300: #5eead4, 400: #2dd4bf, 500: #14b8a6, 600: #0d9488, 700: #0f766e, 800: #115e59, 900: #134e4a, 1000: #000000), tailwindCyan: (0: #ffffff, 50: #ecfeff, 100: #cffafe, 200: #a5f3fc, 300: #67e8f9, 400: #22d3ee, 500: #06b6d4, 600: #0891b2, 700: #0e7490, 800: #155e75, 900: #164e63, 1000: #000000), tailwindSky: (0: #ffffff, 50: #f0f9ff, 100: #e0f2fe, 200: #bae6fd, 300: #7dd3fc, 400: #38bdf8, 500: #0ea5e9, 600: #0284c7, 700: #0369a1, 800: #075985, 900: #0c4a6e, 1000: #000000), tailwindBlue: (0: #ffffff, 50: #eff6ff, 100: #dbeafe, 200: #bfdbfe, 300: #93c5fd, 400: #60a5fa, 500: #3b82f6, 600: #2563eb, 700: #1d4ed8, 800: #1e40af, 900: #1e3a8a, 1000: #000000), tailwindIndigo: (0: #ffffff, 50: #eef2ff, 100: #e0e7ff, 200: #c7d2fe, 300: #a5b4fc, 400: #818cf8, 500: #6366f1, 600: #4f46e5, 700: #4338ca, 800: #3730a3, 900: #312e81, 1000: #000000), tailwindViolet: (0: #ffffff, 50: #f5f3ff, 100: #ede9fe, 200: #ddd6fe, 300: #c4b5fd, 400: #a78bfa, 500: #8b5cf6, 600: #7c3aed, 700: #6d28d9, 800: #5b21b6, 900: #4c1d95, 1000: #000000), tailwindPurple: (0: #ffffff, 50: #faf5ff, 100: #f3e8ff, 200: #e9d5ff, 300: #d8b4fe, 400: #c084fc, 500: #a855f7, 600: #9333ea, 700: #7e22ce, 800: #6b21a8, 900: #581c87, 1000: #000000), tailwindFuchsia: (0: #ffffff, 50: #fdf4ff, 100: #fae8ff, 200: #f5d0fe, 300: #f0abfc, 400: #e879f9, 500: #d946ef, 600: #c026d3, 700: #a21caf, 800: #86198f, 900: #701a75, 1000: #000000), tailwindPink: (0: #ffffff, 50: #fdf2f8, 100: #fce7f3, 200: #fbcfe8, 300: #f9a8d4, 400: #f472b6, 500: #ec4899, 600: #db2777, 700: #be185d, 800: #9d174d, 900: #831843, 1000: #000000), tailwindRose: (0: #ffffff, 50: #fff1f2, 100: #ffe4e6, 200: #fecdd3, 300: #fda4af, 400: #fb7185, 500: #f43f5e, 600: #e11d48, 700: #be123c, 800: #9f1239, 900: #881337, 1000: #000000))"
     },
-    "kendo-color-rgba-transparent": {
-        "type": "Color",
-        "value": "rgba(0, 0, 0, 0)"
-    },
-    "kendo-gradient-transparent-to-black": {
-        "type": "List",
-        "value": "rgba(0, 0, 0, 0), black"
-    },
-    "kendo-gradient-transparent-to-white": {
-        "type": "List",
-        "value": "rgba(255, 255, 255, 0), white"
-    },
-    "kendo-gradient-black-to-transparent": {
-        "type": "List",
-        "value": "black, rgba(0, 0, 0, 0)"
-    },
-    "kendo-gradient-white-to-transparent": {
-        "type": "List",
-        "value": "white, rgba(255, 255, 255, 0)"
-    },
-    "kendo-gradient-rainbow": {
-        "type": "List",
-        "value": "#ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff, #ff0000"
-    },
     "kendo-focus-outline": {
-        "type": "String",
-        "value": "var(--kendo-neutral-130, inherit)"
+        "type": "Null",
+        "value": "null"
     },
     "kendo-disabled-bg": {
-        "type": "String",
-        "value": "var(--kendo-neutral-20, inherit)"
+        "type": "Null",
+        "value": "null"
     },
     "kendo-disabled-border": {
-        "type": "Color",
-        "value": "transparent"
+        "type": "Null",
+        "value": "null"
     },
     "kendo-loading-bg": {
         "type": "Color",
@@ -609,7 +681,7 @@
     },
     "kendo-components": {
         "type": "List",
-        "value": "\"typography\", \"utils\", \"draggable\", \"table\", \"icon\", \"chip\", \"messagebox\", \"input\", \"list\", \"listgroup\", \"overlay\", \"ripple\", \"virtual-scroller\", \"avatar\", \"badge\", \"color-preview\", \"loader\", \"skeleton\", \"tooltip\", \"button\", \"split-button\", \"menu-button\", \"textbox\", \"textarea\", \"checkbox\", \"listbox\", \"progressbar\", \"radio\", \"slider\", \"form\", \"validator\", \"floating-label\", \"calendar\", \"popup\", \"time-selector\", \"autocomplete\", \"captcha\", \"color-palette\", \"color-gradient\", \"color-editor\", \"color-picker\", \"combobox\", \"date-input\", \"date-picker\", \"time-picker\", \"date-time-picker\", \"date-range-picker\", \"dropdown-grid\", \"dropdown-list\", \"dropdown-tree\", \"masked-textbox\", \"multiselect\", \"numeric-textbox\", \"rating\", \"searchbox\", \"switch\", \"upload\", \"dropzone\", \"actions\", \"appbar\", \"fab\", \"menu\", \"toolbar\", \"action-sheet\", \"dialog\", \"drawer\", \"notification\", \"popover\", \"responsive-panel\", \"window\", \"bottom-navigation\", \"breadcrumb\", \"pager\", \"stepper\", \"tabstrip\", \"treeview\", \"wizard\", \"card\", \"expander\", \"panelbar\", \"splitter\", \"tile-layout\", \"dock-manager\", \"grid\", \"listview\", \"spreadsheet\", \"pivotgrid\", \"treelist\", \"filter\", \"file-manager\", \"task-board\", \"editor\", \"image-editor\", \"gantt\", \"scheduler\", \"adaptive\", \"chat\", \"media-player\", \"timeline\", \"pdf-viewer\", \"scroller\", \"scrollview\", \"dataviz\", \"map\", \"orgchart\", \"signature\""
+        "value": "\"typography\", \"utils\", \"draggable\", \"table\", \"icon\", \"chip\", \"messagebox\", \"input\", \"list\", \"listgroup\", \"overlay\", \"ripple\", \"virtual-scroller\", \"avatar\", \"badge\", \"color-preview\", \"loader\", \"skeleton\", \"tooltip\", \"button\", \"split-button\", \"menu-button\", \"textbox\", \"textarea\", \"checkbox\", \"listbox\", \"progressbar\", \"radio\", \"slider\", \"form\", \"validator\", \"floating-label\", \"calendar\", \"popup\", \"time-selector\", \"autocomplete\", \"captcha\", \"color-palette\", \"color-gradient\", \"color-editor\", \"color-picker\", \"combobox\", \"date-input\", \"date-picker\", \"time-picker\", \"date-time-picker\", \"date-range-picker\", \"dropdown-grid\", \"dropdown-list\", \"dropdown-tree\", \"masked-textbox\", \"multiselect\", \"numeric-textbox\", \"rating\", \"searchbox\", \"switch\", \"upload\", \"dropzone\", \"actions\", \"appbar\", \"fab\", \"menu\", \"toolbar\", \"action-sheet\", \"dialog\", \"drawer\", \"notification\", \"popover\", \"responsive-panel\", \"window\", \"bottom-navigation\", \"breadcrumb\", \"pager\", \"stepper\", \"tabstrip\", \"treeview\", \"wizard\", \"card\", \"expander\", \"panelbar\", \"splitter\", \"tile-layout\", \"dock-manager\", \"grid\", \"listview\", \"spreadsheet\", \"pivotgrid\", \"treelist\", \"filter\", \"file-manager\", \"task-board\", \"editor\", \"image-editor\", \"gantt\", \"scheduler\", \"adaptive\", \"chat\", \"media-player\", \"timeline\", \"pdf-viewer\", \"scroller\", \"scrollview\", \"prompt\", \"dataviz\", \"map\", \"orgchart\", \"signature\""
     },
     "kendo-elevation": {
         "type": "Map",
@@ -3507,19 +3579,35 @@
         "type": "Null",
         "value": "null"
     },
-    "kendo-input-separator-color": {
+    "kendo-input-separator-text": {
         "type": "Color",
-        "value": "#424242"
+        "value": "rgba(0, 0, 0, 0.08)"
     },
     "kendo-input-separator-opacity": {
         "type": "Number",
         "value": "0.5"
+    },
+    "kendo-input-prefix-text": {
+        "type": "Color",
+        "value": "#666666"
+    },
+    "kendo-input-suffix-text": {
+        "type": "Color",
+        "value": "#666666"
     },
     "kendo-input-invalid-border": {
         "type": "Color",
         "value": "#f31700"
     },
     "kendo-input-invalid-shadow": {
+        "type": "Null",
+        "value": "null"
+    },
+    "kendo-input-valid-border": {
+        "type": "Color",
+        "value": "#37b400"
+    },
+    "kendo-input-valid-shadow": {
         "type": "Null",
         "value": "null"
     },
@@ -3715,10 +3803,6 @@
         "type": "Number",
         "value": "8px"
     },
-    "kendo-tooltip-max-width": {
-        "type": "Null",
-        "value": "null"
-    },
     "kendo-tooltip-border-width": {
         "type": "Number",
         "value": "0px"
@@ -3767,65 +3851,13 @@
         "type": "String",
         "value": "var(--kendo-elevation-2, 0 4px 6px rgba(0, 0, 0, 0.06), 0 4px 16px rgba(0, 0, 0, 0.12))"
     },
-    "kendo-tooltip-primary-bg": {
-        "type": "Color",
-        "value": "#ff6358"
+    "kendo-tooltip-theme-colors": {
+        "type": "Map",
+        "value": "(\"primary\": #ff6358, \"secondary\": #666666, \"tertiary\": #03a9f4, \"info\": #0058e9, \"success\": #37b400, \"warning\": #ffc000, \"error\": #f31700, \"dark\": #424242, \"light\": #ebebeb, \"inverse\": #424242)"
     },
-    "kendo-tooltip-primary-text": {
-        "type": "Color",
-        "value": "white"
-    },
-    "kendo-tooltip-primary-border": {
-        "type": "Color",
-        "value": "#ff6358"
-    },
-    "kendo-tooltip-info-bg": {
-        "type": "Color",
-        "value": "#0058e9"
-    },
-    "kendo-tooltip-info-text": {
-        "type": "Color",
-        "value": "white"
-    },
-    "kendo-tooltip-info-border": {
-        "type": "Color",
-        "value": "#0058e9"
-    },
-    "kendo-tooltip-success-bg": {
-        "type": "Color",
-        "value": "#37b400"
-    },
-    "kendo-tooltip-success-text": {
-        "type": "Color",
-        "value": "white"
-    },
-    "kendo-tooltip-success-border": {
-        "type": "Color",
-        "value": "#37b400"
-    },
-    "kendo-tooltip-warning-bg": {
-        "type": "Color",
-        "value": "#ffc000"
-    },
-    "kendo-tooltip-warning-text": {
-        "type": "Color",
-        "value": "black"
-    },
-    "kendo-tooltip-warning-border": {
-        "type": "Color",
-        "value": "#ffc000"
-    },
-    "kendo-tooltip-error-bg": {
-        "type": "Color",
-        "value": "#f31700"
-    },
-    "kendo-tooltip-error-text": {
-        "type": "Color",
-        "value": "white"
-    },
-    "kendo-tooltip-error-border": {
-        "type": "Color",
-        "value": "#f31700"
+    "kendo-tooltip-theme": {
+        "type": "Map",
+        "value": "(\"inverse\": (color: white, background-color: #424242, border: #424242), \"light\": (color: black, background-color: #ebebeb, border: #ebebeb), \"dark\": (color: white, background-color: #424242, border: #424242), \"error\": (color: white, background-color: #f31700, border: #f31700), \"warning\": (color: black, background-color: #ffc000, border: #ffc000), \"success\": (color: white, background-color: #37b400, border: #37b400), \"info\": (color: white, background-color: #0058e9, border: #0058e9), \"tertiary\": (color: white, background-color: #03a9f4, border: #03a9f4), \"secondary\": (color: white, background-color: #666666, border: #666666), \"primary\": (color: white, background-color: #ff6358, border: #ff6358))"
     },
     "kendo-window-border-width": {
         "type": "Number",
@@ -6922,6 +6954,10 @@
     "kendo-drawer-selected-hover-text": {
         "type": "Color",
         "value": "white"
+    },
+    "kendo-notification-group-gap": {
+        "type": "Number",
+        "value": "8px"
     },
     "kendo-notification-padding-x": {
         "type": "Number",
@@ -10863,6 +10899,10 @@
         "type": "Number",
         "value": "4px"
     },
+    "kendo-taskboard-card-hover-border": {
+        "type": "Color",
+        "value": "rgba(0, 0, 0, 0.172)"
+    },
     "kendo-taskboard-card-focus-border": {
         "type": "Color",
         "value": "rgba(0, 0, 0, 0.2456)"
@@ -10870,10 +10910,6 @@
     "kendo-taskboard-card-focus-shadow": {
         "type": "String",
         "value": "none"
-    },
-    "kendo-taskboard-card-hover-border": {
-        "type": "Color",
-        "value": "rgba(0, 0, 0, 0.172)"
     },
     "kendo-taskboard-card-selected-border": {
         "type": "Color",
@@ -10887,11 +10923,11 @@
         "type": "Color",
         "value": "#ff6358"
     },
-    "kendo-taskboard-card-header-focus-text": {
+    "kendo-taskboard-card-header-hover-text": {
         "type": "Color",
         "value": "#d6534a"
     },
-    "kendo-taskboard-card-header-hover-text": {
+    "kendo-taskboard-card-header-focus-text": {
         "type": "Color",
         "value": "#d6534a"
     },
@@ -12394,6 +12430,86 @@
     "kendo-scrollview-transition-timing-function": {
         "type": "String",
         "value": "ease-in-out"
+    },
+    "kendo-prompt-text": {
+        "type": "Color",
+        "value": "#424242"
+    },
+    "kendo-prompt-bg": {
+        "type": "Color",
+        "value": "#ffffff"
+    },
+    "kendo-prompt-border": {
+        "type": "Color",
+        "value": "rgba(0, 0, 0, 0.08)"
+    },
+    "kendo-prompt-header-text": {
+        "type": "Color",
+        "value": "#424242"
+    },
+    "kendo-prompt-header-bg": {
+        "type": "Color",
+        "value": "#ffffff"
+    },
+    "kendo-prompt-header-border": {
+        "type": "Color",
+        "value": "rgba(0, 0, 0, 0.08)"
+    },
+    "kendo-prompt-content-padding-y": {
+        "type": "Number",
+        "value": "16px"
+    },
+    "kendo-prompt-content-padding-x": {
+        "type": "Number",
+        "value": "16px"
+    },
+    "kendo-prompt-content-spacing": {
+        "type": "Number",
+        "value": "16px"
+    },
+    "kendo-prompt-content-text": {
+        "type": "Color",
+        "value": "#424242"
+    },
+    "kendo-prompt-content-bg": {
+        "type": "Color",
+        "value": "#fafafa"
+    },
+    "kendo-prompt-content-border": {
+        "type": "Color",
+        "value": "rgba(0, 0, 0, 0.08)"
+    },
+    "kendo-prompt-expander-spacing": {
+        "type": "Number",
+        "value": "8px"
+    },
+    "kendo-prompt-suggestion-padding-y": {
+        "type": "Number",
+        "value": "8px"
+    },
+    "kendo-prompt-suggestion-padding-x": {
+        "type": "Number",
+        "value": "8px"
+    },
+    "kendo-prompt-suggestion-border-radius": {
+        "type": "Number",
+        "value": "4px"
+    },
+    "kendo-prompt-suggestion-text": {
+        "type": "Color",
+        "value": "#424242"
+    },
+    "kendo-prompt-suggestion-bg": {
+        "type": "Color",
+        "value": "#ffffff"
+    },
+    "kendo-prompt-suggestion-border": {
+        "type": "Color",
+        "value": "rgba(0, 0, 0, 0.08)"
+    },
+    "kendo-prompt-suggestion-shadow": {
+        "type": "String",
+        "value": "var(--kendo-elevation-1, 0 2px 3px rgba(0, 0, 0, 0.04), 0 4px 16px rgba(0, 0, 0, 0.12))"
     },
     "kendo-series-a": {
         "type": "Color",
